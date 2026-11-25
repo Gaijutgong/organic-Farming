@@ -1,0 +1,20 @@
+ORGANIC FARMING SUITABILITY PBL — RUN INSTRUCTIONS
+
+Files:
+1. Organic_Farming_Suitability_PBL.ipynb — complete runnable project notebook
+2. organic_farming_suitability_1000_source_calibrated.csv — supplied dataset
+3. organic_farming_dataset_README.txt — supplied dataset documentation
+4. requirements.txt — Python packages
+
+Run:
+1. Extract this ZIP into one folder.
+2. Open a terminal/command prompt in that folder.
+3. Install packages: pip install -r requirements.txt
+4. Start Jupyter: jupyter notebook
+5. Open Organic_Farming_Suitability_PBL.ipynb.
+6. Select Kernel > Restart & Run All (or Run All).
+
+Important:
+The dataset is source-calibrated synthetic educational data, not 1,000 authentic field/laboratory records.
+The suitability labels come from an instructional rubric, not an official organic certification standard.
+Suitability_Score is deliberately excluded from model inputs to prevent target leakage.
